@@ -36,7 +36,8 @@ const page = ({params}) => {
                 </button>
         </div>
         <div className="text-center">
-            <h1>{data.title}</h1>
+            <h1 className='text-2xl sm:text-5xl font-semibold max-w-[-700px] mx-auto'>{data.title}</h1>
+            <Image/>
         </div>
     </div>
     </>:<></>
