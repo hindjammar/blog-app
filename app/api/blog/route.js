@@ -56,3 +56,5 @@ export async function POST(request){
 
   return NextResponse.json({success:true,msg:"Blog Added"})
 }
+
+//creating API endpoint to delete Blog
